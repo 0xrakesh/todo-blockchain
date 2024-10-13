@@ -10,7 +10,7 @@ with open(".env","w") as file:
     file.write("\n")
 
 import os
-os.system("npm install truffle")
+os.system("npm install truffle dotenv")
 os.system("truffle compile")
 os.system("truflle migrate --reset")
 os.system("cp build\contracts\TodoList.json app\src\TodoList.json")
