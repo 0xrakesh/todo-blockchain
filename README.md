@@ -4,7 +4,7 @@
 - React
 
 # Installation
-To install the dapp, we can either run `install.py` file or do it manually. For manual installation
+To install the dapp, we can either run `install.py` file or do it manually. The `.env` does not have any sensitive information for my case, so don't worry about it ☺. For manual installation
 - `npm install`
 - And edit the `truffle.config.js` file, that network with your ethereum network url / ganache url ( like 127.0.0.1 ) and port number.
 - Then compile the solidity code. `truffle compile`
